@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DPK Pillay - Articles & Contributions</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f2f6fa);
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-family: 'Merriweather', serif;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  p.subtitle {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 0;
+  }
+  .search-box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .search-box input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  section {
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-family: 'Merriweather', serif;
+    color: #34495e;
+    border-bottom: 3px solid #2980b9;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+  }
+  .card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  a {
+    color: #2980b9;
+    text-decoration: none;
+    position: relative;
+  }
+  a::after {
+    content: '↗';
+    margin-left: 6px;
+    font-size: 0.85em;
+  }
+  a:hover, a:focus {
+    color: #1c5980;
+    transition: color 0.3s;
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.9em;
+    margin-top: 60px;
+  }
+</style>
+<script>
+function searchArticles() {
+  const input = document.getElementById("searchInput").value.toLowerCase();
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(input) ? "block" : "none";
+  });
+}
+</script>
+</head>
+<body>
+
+<header>
+  <h1>DPK Pillay - Articles & Contributions</h1>
+  <p class="subtitle">Retired Indian Army officer, Research Fellow, and author</p>
+</header>
+
+<div class="search-box">
+  <input type="text" id="searchInput" onkeyup="searchArticles()" placeholder="Search articles...">
+</div>
+
+<section id="articles">
+  <h2>Articles & Posts</h2>
+
+  <div class="card">
+    <h3>Blitz India</h3>
+    <ul>
+      <li><a href="https://blitzindia.in/2024/09/10/a-trusted-partner-india-set-to-expand-defence-maritime-ties-with-tanzania/">A trusted partner: India set to expand defence, maritime ties with Tanzania (10 Sept 2024)</a></li>
+      <li><a href="https://blitzindia.in/2024/08/12/indias-transformative-journey-from-mdg-to-sdgs-localisation-of-sdgs-sign-of-political-commitment/">India’s Transformative Journey from MDG to SDGs (Aug 2024)</a></li>
+      <li><a href="https://blitzindia.in/2024/07/25/gaza-epitomises-challenge-in-conflict-resolution-a-75th-anniversary-review-of-geneva-conventions/">Gaza epitomises challenge in conflict resolution (July 2024)</a></li>
+      <li><a href="https://blitzindia.in/2024/06/15/new-coas-appointment-puts-controversy-to-rest/">New COAS Appointment Puts Controversy to Rest (June 2024)</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>The Economic Times</h3>
+    <ul>
+      <li><a href="https://economictimes.indiatimes.com/agniveer-and-the-hidden-costs-of-rebuilding-a-downsized-military/articleshow/99999999.cms">Agniveer and the hidden costs of rebuilding a downsized military (June 2024)</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Times of India</h3>
+    <ul>
+      <li><a href="https://timesofindia.indiatimes.com/toi-plus/author-DPKPillay-479255889">Govt wants to save money with Agniveers</a></li>
+      <li><a href="https://timesofindia.indiatimes.com/toi-plus/author-DPKPillay-479255889">Why India needs its own USAID-like aid agency</a></li>
+      <li><a href="https://timesofindia.indiatimes.com/toi-plus/author-DPKPillay-479255889">Clear entry, exit norms, hiked retention ratio</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>DailyO</h3>
+    <ul>
+      <li><a href="https://www.dailyo.in/author/dpkpillay12">How music influenced the War of Liberation of Bangladesh</a></li>
+      <li><a href="https://www.dailyo.in/author/dpkpillay12">Reviving the 300-year-old Indo-French relationship</a></li>
+      <li><a href="https://www.dailyo.in/author/dpkpillay12">What we should learn from a death in a tunnel</a></li>
+      <li><a href="https://www.dailyo.in/author/dpkpillay12">India’s nuclear policy and Rajnath’s comment</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Open The Magazine</h3>
+    <ul>
+      <li><a href="https://openthemagazine.com/author/dpk-pillay/">The Peace Dividend</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="academics">
+  <h2>Academic Contributions</h2>
+  <div class="card">
+    <ul>
+      <li><a href="https://idsa.in/system/files/StrategicAnalysis_HumanSecurity_India_DPKPillay.pdf">Applying Human Security in the Indian Context</a></li>
+      <li><a href="https://idsa.in/human-resource/d-padma-kumar-pillay/">Contested Lands: India, China and the Boundary Dispute</a></li>
+      <li><a href="https://idsa.in/human-resource/d-padma-kumar-pillay/">Full Spectrum: India’s Wars 1972-2020</a></li>
+      <li><a href="https://puchd.academia.edu/DpkPillay">More publications on Academia.edu</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="lectures">
+  <h2>Lectures & Talks</h2>
+  <div class="card">
+    <ul>
+      <li><a href="https://idsa.in/news/dpk-pillay-delivers-lecture-on-international-law-at-iml">Lecture on International Law at IML (Oct 2024)</a></li>
+      <li><a href="https://idsa.in/mpidsanews/dpk-pillay-delivers-lecture-to-officers-from-discipline-and-vigilance-branch-of-army-headquarters">Lecture to Officers from Discipline and Vigilance Branch (Feb 2025)</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Curated by Harsha Pillay</p>
+</footer>
+
+</body>
+</html>
